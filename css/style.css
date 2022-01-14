@@ -30,7 +30,7 @@ body {
 .button {
   cursor: pointer;
 }
-.navigation-item .navigation-link.active-link {
+.navigation-item .navigation-link.current {
   color: var(--accent-text-color);
 }
 /*---------------SITE NAV------------------- */
