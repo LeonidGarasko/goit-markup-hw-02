@@ -30,6 +30,9 @@ body {
 .button {
   cursor: pointer;
 }
+.navigation-item .navigation-link.active-link {
+  color: var(--accent-text-color);
+}
 /*---------------SITE NAV------------------- */
 .navigation-logo {
   font-family: 'Raleway', sans-serif;
