@@ -17,6 +17,10 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+
 .text {
   color: var(--primary-text-color);
 }
@@ -198,8 +202,4 @@ body {
 .portfolio-item-text {
   font-size: 16px;
   line-height: 1.87;
-}
-
-.link {
-  text-decoration: none;
 }
