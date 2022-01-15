@@ -79,7 +79,7 @@ body {
 
 /*---------------HERO------------------- */
 .hero {
-  background-color: gray;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -136,13 +136,6 @@ body {
 .footer {
   background-color: #2f303a;
 }
-.navigation-logo-second {
-  color: var(--primary-white-color);
-}
-.navigation-logo-second:hover,
-.navigation-logo-second:focus {
-  color: var(--accent-text-color);
-}
 .adress {
   font-style: normal;
   font-size: 14px;
@@ -155,6 +148,19 @@ body {
   color: var(--accent-text-color);
 }
 
+.footer-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-text-color);
+}
 /*---------------портфолио------------------- */
 .visually-hidden {
   position: absolute;
@@ -192,4 +198,8 @@ body {
 .portfolio-item-text {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.link {
+  text-decoration: none;
 }
